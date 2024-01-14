@@ -1,8 +1,4 @@
-function functionThatsRun()
-speaker play missthefinal.dfpwm
-print("it has been another loop")
-end
 while true do
-functionThatsRun()
-sleep(81)
+  speaker play missthefinal.dfpwm
+os.sleep(81)
 end
